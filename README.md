@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+Documentation for Four Season Spice London Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
 
-## Available Scripts
+The "Four Season Spice London" website is a modern, responsive, and dynamic web application built to enhance the online presence of the restaurant. It is designed to provide an intuitive user experience while showcasing the restaurant's unique offerings, menus, and services. The website features theme toggling functionality, ensuring accessibility and customization for all users.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+1. Home Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dynamic Header: The header includes navigation links to different sections of the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome Banner: A visually appealing welcome message with the restaurant's tagline.
 
-### `npm test`
+Responsive Design: Fully responsive layout for seamless browsing on mobile, tablet, and desktop devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Menu Page
 
-### `npm run build`
+Categorized Menu: Organized sections for starters, main courses, desserts, and beverages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+High-Quality Images: Each menu item is paired with a high-quality image to entice users.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Detailed Descriptions: Includes details such as ingredients and pricing for each item.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. About Us Page
 
-### `npm run eject`
+Restaurant Story: Highlights the history and mission of Four Season Spice London.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Core Values: Information about the restaurant's dedication to authentic Indian flavors and excellent customer service.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Visual Appeal: Includes an image of the restaurant to give visitors a glimpse of its ambiance.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Contact Us Page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contact Form: Users can reach out to the restaurant by filling out a simple form with their name, email, and message.
 
-## Learn More
+Location Map: Integrated Google Maps to show the restaurant's exact location.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Business Details: Includes phone number, email, and operating hours.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Footer
 
-### Code Splitting
+Quick Links: Navigation shortcuts for Home, Menu, About Us, and Contact Us pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Social Media Integration: Links to the restaurant's social media profiles.
 
-### Analyzing the Bundle Size
+Copyright Information: Displays the current year and the restaurant's name.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. Theme Toggle
 
-### Making a Progressive Web App
+Light and Dark Mode: Allows users to switch between light and dark themes for a personalized experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Persistent State: The chosen theme is saved using localStorage and applied automatically on subsequent visits.
 
-### Advanced Configuration
+Technology Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Frontend
 
-### Deployment
+React: For building dynamic and interactive UI components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tailwind CSS: For styling and ensuring a responsive design.
 
-### `npm run build` fails to minify
+React Router: For managing navigation between pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Backend (Optional)
+
+The current implementation is frontend-focused, but it can be extended to include backend features using Node.js and Express.
+
+Deployment
+
+The website can be deployed using platforms like Vercel, Netlify, or GitHub Pages for easy access and scalability.
+
+Setup and Installation
+
+Clone the Repository:
+
+git clone <repository-url>
+
+Navigate to the Project Directory:
+
+cd four-season-spice
+
+Install Dependencies:
+
+npm install
+
+Run the Application Locally:
+
+npm start
+
