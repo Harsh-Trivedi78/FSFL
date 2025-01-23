@@ -58,13 +58,15 @@ const Footer = () => {
         </div>
 
         {/* Get In Touch */}
-        <div className="text-center md:text-left">
-          <h3 className="font-bold text-lg mb-4">Get In Touch</h3>
-          <p className="text-sm">+447467151723</p>
-          <p className="text-sm">Sbgsscl1610@gmail.com</p>
+        <div className="text-center md:text-left space-y-4">
+  <h3 className="font-bold text-lg">Get In Touch</h3>
+  <p className="text-sm">+447467151723</p>
+  <p className="text-sm">Sbgsscl1610@gmail.com</p>
 
-          {/* <p className="text-sm">contact@tomato.com</p> */}
-        </div>
+  <h3 className="font-bold text-lg">Find Us</h3>
+  <p className="text-sm">28 High Street, Hounslow, TW3 1NW</p>
+</div>
+
       </div>
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
