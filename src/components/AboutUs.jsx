@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         {/* Title */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-orange-500">About Four Season Spice London</h1>
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-orange-500">About Four Season Spice London</h1>
           <p className="mt-4 text-base sm:text-lg text-gray-600">
             Experience the taste of authentic Indian spices, crafted with love and tradition.
           </p>
@@ -25,7 +25,7 @@ const AboutUs = () => {
 
           {/* Right side - Description */}
           <div className="flex flex-col justify-center">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">Our Story</h2>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-4">Our Story</h2>
             <p className="text-base sm:text-lg text-gray-700 mb-6">
               Welcome to Four Season Spice London, where every dish is a celebration of authentic flavors.
               Our journey began with a passion for bringing the rich, aromatic spices of India to the heart of London.
@@ -34,7 +34,7 @@ const AboutUs = () => {
               bite will leave you craving more.
             </p>
 
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">Our Mission</h2>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-4">Our Mission</h2>
             <p className="text-base sm:text-lg text-gray-700">
               At Four Season Spice, we are dedicated to offering our guests an exceptional culinary experience
               through the use of high-quality ingredients, locally sourced produce, and a passion for culinary excellence.

@@ -2,10 +2,21 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <div className="bg-orange-50 min-h-screen p-6">
+    <div 
+  className="min-h-screen p-10 "
+  style={{ 
+    backgroundImage: "url('/plo.jpg')",
+    backgroundSize: "contain", // or use "50%" to shrink
+    // backgroundPosition: "center",
+    // backgroundRepeat: "no-repeat"
+  }}
+>
+
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8">
         {/* Header Section */}
+        
         <header className="text-center mb-8">
+          
           <h1 className="text-4xl font-bold text-orange-600">FOOD MENU</h1>
           <p className="text-gray-700 font-semibold">Open Everday!</p>
         </header>
@@ -521,19 +532,19 @@ const Menu = () => {
             <li>Mandi </li>
             <li>Kasmi Ri Razdi Chamcha </li>
             <li className="text-lg font-bold text-orange-600">Wednesday</li>
-            <li>Kaleji Kebab -</li>
-            <li>Kheema Kebab -</li>
-            <li>Khichdi Khatta -</li>
-            <li>Tandoori Mix -</li>
-            <li>Gulab Jamun with Ice Cream -</li>
-            <li>Black Tea -</li>
+            <li>Kaleji Kebab </li>
+            <li>Kheema Kebab </li>
+            <li>Khichdi Khatta </li>
+            <li>Tandoori Mix </li>
+            <li>Gulab Jamun with Ice Cream </li>
+            <li>Black Tea </li>
             <li className="text-lg font-bold text-orange-600">Thursday</li>
-            <li>Gjonkajara Lamb -</li>
-            <li>Kheema Polad -</li>
-            <li>Sea Food -</li>
+            <li>Gjonkajara Lamb </li>
+            <li>Kheema Polad </li>
+            <li>Sea Food </li>
             <li>Fish Fry and Grilled Prawns -</li>
-            <li>Double Ka Meetha -</li>
-            <li>Kadak Hyderabadi Chai -</li>
+            <li>Double Ka Meetha </li>
+            <li>Kadak Hyderabadi Chai </li>
           </ul>
         </div>
        

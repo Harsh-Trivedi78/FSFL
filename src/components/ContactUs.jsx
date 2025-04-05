@@ -8,7 +8,7 @@ const ContactUs = () => {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
         <div className="max-w-2xl w-full p-6 bg-green-100 rounded-lg shadow-md dark:bg-green-800 dark:text-white">
-          <p className="text-green-500 text-center font-semibold">Thanks for contacting us! We'll get back to you shortly.</p>
+          <p className="text-green-500 text-center font-extrabold">Thanks for contacting us! We'll get back to you shortly.</p>
         </div>
       </div>
     );
@@ -17,10 +17,10 @@ const ContactUs = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="max-w-2xl w-full p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 dark:text-white">
-        <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
+        <h2 className="text-3xl font-extrabold text-center mb-6">Contact Us</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-lg font-semibold">Email Address</label>
+            <label htmlFor="email" className="block text-lg font-extrabold">Email Address</label>
             <input
               id="email"
               type="email"
@@ -33,7 +33,7 @@ const ContactUs = () => {
           </div>
 
           <div className="mb-4">
-            <label htmlFor="message" className="block text-lg font-semibold">Message</label>
+            <label htmlFor="message" className="block text-lg font-extrabold">Message</label>
             <textarea
               id="message"
               name="message"
@@ -47,7 +47,7 @@ const ContactUs = () => {
           <button
             type="submit"
             disabled={state.submitting}
-            className="w-full py-3 mt-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-600 disabled:bg-gray-400"
+            className="w-full py-3 mt-4 bg-orange-600 text-white font-extrabold rounded-lg hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-600 disabled:bg-gray-400"
           >
             {state.submitting ? "Submitting..." : "Submit"}
           </button>

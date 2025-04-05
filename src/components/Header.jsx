@@ -41,16 +41,16 @@ const Header = () => {
           alt="Logo" 
           className="h-10 w-10 mr-3" 
         />
-        <Link to="/" className="text-2xl font-bold text-orange-600">
+        <Link to="/" className="text-2xl font-extrabold text-orange-600">
           <span className="block leading-tight">Four Season</span>
           <span className="block leading-tight">Spice London.</span>
         </Link>
       </div>
       
       <nav className="hidden md:flex gap-4 text-gray-700 dark:text-gray-300">
-        <Link to="/" className="hover:underline hover:text-orange-600 dark:hover:text-orange-400">Home</Link>
-        <Link to="/menu" className="hover:underline hover:text-orange-600 dark:hover:text-orange-400">Menu</Link>
-        <Link to="/contact-us" className="hover:underline hover:text-orange-600 dark:hover:text-orange-400">Contact Us</Link>
+        <Link to="/" className="hover:underline hover:text-orange-600 dark:hover:text-orange-400 font-extrabold">Home</Link>
+        <Link to="/menu" className="hover:underline hover:text-orange-600 dark:hover:text-orange-400 font-extrabold">Menu</Link>
+        <Link to="/contact-us" className="hover:underline hover:text-orange-600 dark:hover:text-orange-400 font-extrabold">Contact Us</Link>
       </nav>
       
       <div className="flex items-center gap-3">
@@ -63,13 +63,13 @@ const Header = () => {
         </button>
         
         <Link to="/about-us">
-          <button className="px-4 py-2 text-sm md:px-5 md:py-2.5 bg-orange-600 text-white font-semibold rounded-full hover:bg-orange-700 transition-colors duration-300">
+          <button className="px-4 py-2 text-sm md:px-5 md:py-2.5 bg-orange-600 text-white font-extrabold rounded-full hover:bg-orange-700 transition-colors duration-300">
             About Us
           </button>
         </Link>
       </div>
     </header>
-  );
+  );  
 };
 
 export default Header;
