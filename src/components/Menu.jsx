@@ -5,7 +5,7 @@ const Menu = () => {
     <div 
   className="min-h-screen p-10 "
   style={{ 
-    backgroundImage: "url('/plo.jpg')",
+    backgroundImage: "url('/db.jpg')",
     backgroundSize: "contain", // or use "50%" to shrink
     // backgroundPosition: "center",
     // backgroundRepeat: "no-repeat"
