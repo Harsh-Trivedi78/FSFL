@@ -37,8 +37,8 @@ const Menu = () => {
                 ["Lamb Sheek Kabab", "£7.99 / £6.99"],
                 ["Shahi Mutton Chops", "£9.99 / £9.99"],
                 ["Lamb Shami Kabab", "£9.99 / £8.99"],
-                ["Tandoori Chicken Half", "£4.99 / £3.99"],
-                ["Tandoori Chicken Full", "£6.99 / £5.99"],
+                ["Tandoori Chicken Half", "£6.99 / £3.99"],
+                ["Tandoori Chicken Full", "£9.99 / £5.99"],
                 ["Tandoori Chicken Tikka", "£6.99 / £5.99"],
                 ["Murg Malai Tikka", "£7.99 / £5.99"],
                 ["Chicken Sheek Kabab", "£6.99 / £5.99"],
@@ -121,7 +121,7 @@ const Menu = () => {
 
             <ul className="space-y-4">
               {[
-                ["Lamb Dum Biryani", "£7.99 / £6.99"],
+                ["Lamb Dum Biryani", "£8.99 / £6.99"],
                 ["Chicken Tikka Biryani", "£6.99 / £5.99"],
                 ["Chicken Dum Biryani", "£5.99 / £4.99"],
                 ["Chicken 65 Biryani", "£6.99 / £5.99"],
